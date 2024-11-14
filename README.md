@@ -13,15 +13,17 @@ See the Ceres installation instructions for more details.
 
 
 ## Available Networks
-| ID | Date | Dim/Depth | Params(mm) | TRT Size(mb) | Training Pos(bn) | Speed (nps)[^1] | Elo (1000n)[^2] | First Appearance |
+| ID | Date | Size | Params | TRT Size | Train[^2] | Speed[^3] | Elo[^4]
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [C1-256-10](https://github.com/dje-dev/CeresNets/releases/tag/C1-256-10) | Sep 2024 | 256x10 | 15 | 37 | 4.0 | 34,600[^3] | -96 |
-| [C1-384-12](https://github.com/dje-dev/CeresNets/releases/tag/C1-384-12) | Sep 2024 | 384x12 | 31 | 70 | 6.0 | 19,200 | -42 |
-| [C1-512-15](https://github.com/dje-dev/CeresNets/releases/tag/C1-512-15) | Sep 2024 | 512x15 | 70 | 140 | 5.2 | 9,600 | 9 | TCEC Swiss 7 |
-| [C1-768-15](https://github.com/dje-dev/CeresNets/releases/tag/C1-768-15) | Sep 2024 | 768x15 | 126 | 257 | 9.0 | 5,600 | 54 | TCEC Cup 14 |
-| [C1-512-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-512-25) | Oct 2024 | 512x25 | 129 | 263 | 6.0 | 8,300 | 74 | TCEC S27 E/2 Leagues |
-| [C1-640-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-640-25) | Nov 2024 | 640x25 | 185 | 374 | 7.0 | 5,500 | 124 | TCEC S27 League 1 |
+| [C1-256-10](https://github.com/dje-dev/CeresNets/releases/tag/C1-256-10) | Sep 24 | 256x10 | 15mm | 37mb | 4.0bn | 34,600[^5] | -96
+| [C1-384-12](https://github.com/dje-dev/CeresNets/releases/tag/C1-384-12) | Sep 24 | 384x12 | 31mm | 70mb | 6.0bn | 19,200 | -42
+| [C1-512-15](https://github.com/dje-dev/CeresNets/releases/tag/C1-512-15) | Sep 24 | 512x15 | 70mm | 140mb | 5.2bn | 9,600 | 9
+| [C1-768-15](https://github.com/dje-dev/CeresNets/releases/tag/C1-768-15) | Sep 24 | 768x15 | 126mm | 257mb | 9.0bn | 5,600 | 54
+| [C1-512-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-512-25) | Oct 24 | 512x25 | 129mm | 263mb | 6.0bn | 8,300 | 74
+| [C1-640-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-640-25) | Nov 24 | 640x25 | 185mm | 374mb | 7.0bn | 5,500 | 124
 
-[^1]:Using TensorRT 10.5 on NVIDIA A6000 Ada with batch size 128. 
-[^2]:Using openings UHO_Lichess_4852_v1.epd
-[^3]:Actual speed within Ceres closer to 25,000 due to current implementation inefficiencies.
+[^1]:Size of transformer embedding dimension by number of encoder layers
+[^2]:Number of training positions on which the network was trained
+[^3]:Nodes per second using TensorRT 10.5 on NVIDIA A6000 Ada with batch size 128. 
+[^4]:Using openings UHO_Lichess_4852_v1.epd and fixed nodes test (1000 nodes per search)
+[^5]:Actual speed within Ceres closer to 25,000 due to current implementation inefficiencies
