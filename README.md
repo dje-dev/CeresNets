@@ -15,12 +15,12 @@ See the Ceres installation instructions for more details.
 ## Available Networks
 | ID | Date | Size | Params | TRT Size | Train[^2] | Speed[^3] | Elo[^4]
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [C1-256-10](https://github.com/dje-dev/CeresNets/releases/tag/C1-256-10) | Sep 24 | 256x10 | 15mm | 37mb | 4.0bn | 34,600[^5] | -96
-| [C1-384-12](https://github.com/dje-dev/CeresNets/releases/tag/C1-384-12) | Sep 24 | 384x12 | 31mm | 70mb | 6.0bn | 19,200 | -42
-| [C1-512-15](https://github.com/dje-dev/CeresNets/releases/tag/C1-512-15) | Sep 24 | 512x15 | 70mm | 140mb | 5.2bn | 9,600 | 9
-| [C1-768-15](https://github.com/dje-dev/CeresNets/releases/tag/C1-768-15) | Sep 24 | 768x15 | 126mm | 257mb | 9.0bn | 5,600 | 54
-| [C1-512-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-512-25) | Oct 24 | 512x25 | 129mm | 263mb | 6.0bn | 8,300 | 74
-| [C1-640-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-640-25) | Nov 24 | 640x25 | 185mm | 374mb | 7.0bn | 5,500 | 124
+| [C1-256-10](https://github.com/dje-dev/CeresNets/releases/tag/C1-256-10) | Sep 24 | 256x10 | 15mm | 37mb | 4.0bn | 34,600[^5] | -96|
+| [C1-384-12](https://github.com/dje-dev/CeresNets/releases/tag/C1-384-12) | Sep 24 | 384x12 | 31mm | 70mb | 6.0bn | 19,200 | -42|
+| [C1-512-15](https://github.com/dje-dev/CeresNets/releases/tag/C1-512-15) | Sep 24 | 512x15 | 70mm | 140mb | 5.2bn | 9,600 | 9|
+| [C1-768-15](https://github.com/dje-dev/CeresNets/releases/tag/C1-768-15) | Sep 24 | 768x15 | 126mm | 257mb | 9.0bn | 5,600 | 54|
+| [C1-512-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-512-25) | Oct 24 | 512x25 | 129mm | 263mb | 6.0bn | 8,300 | 74|
+| [C1-640-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-640-25) | Nov 24 | 640x25 | 185mm | 374mb | 7.0bn | 5,500 | 124|
 
 [^1]:Size of transformer embedding dimension by number of encoder layers
 [^2]:Number of training positions on which the network was trained
