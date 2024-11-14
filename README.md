@@ -14,7 +14,7 @@ See the Ceres installation instructions for more details.
 
 ## Available Networks
 | ID | Date | Size | Params | TRT Size | Train[^2] | Speed[^3] | Elo[^4]|
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | [C1-256-10](https://github.com/dje-dev/CeresNets/releases/tag/C1-256-10) | Sep 24 | 256x10 | 15mm | 37mb | 4.0bn | 34,600[^5] | -96|
 | [C1-384-12](https://github.com/dje-dev/CeresNets/releases/tag/C1-384-12) | Sep 24 | 384x12 | 31mm | 70mb | 6.0bn | 19,200 | -42|
 | [C1-512-15](https://github.com/dje-dev/CeresNets/releases/tag/C1-512-15) | Sep 24 | 512x15 | 70mm | 140mb | 5.2bn | 9,600 | 9|
