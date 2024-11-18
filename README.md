@@ -5,7 +5,7 @@ The weights are in ONNX format and can be used with the [Ceres](https://github.c
 Although these compressed ZIP files can be directly downloaded and uncompressed, it is most conveniet to use
 the UCI download command supported by the Ceres engine.
 
-For example, to download the C1-512-15 network, use the command:
+For example, to download the C1-256-10 network, use the command:
 ```
 download C1-256-10
 ```
