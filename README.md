@@ -2,7 +2,7 @@
 This GitHub repository contains the latest binary weight files for the Ceres neural network chess engine.
 The weights are in ONNX format and can be used with the [Ceres](https://github.com/dje-dev/Ceres) chess engine. 
 
-Although these compressed ZIP files can be directly downloaded and uncompressed, it is most conveniet to use
+Although these compressed ZIP files can be directly downloaded and uncompressed, it is most convenient to use
 the UCI download command supported by the Ceres engine.
 
 For example, to download the C1-256-10 network, use the command:
@@ -21,6 +21,7 @@ See the Ceres installation instructions for more details.
 | [C1-768-15](https://github.com/dje-dev/CeresNets/releases/tag/C1-768-15) | Sep 24 | 768x15 | 126mm | 257mb | 9.0bn | 5,600 | 54|
 | [C1-512-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-512-25) | Oct 24 | 512x25 | 129mm | 263mb | 6.0bn | 8,300 | 74|
 | [C1-640-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-640-25) | Nov 24 | 640x25 | 185mm | 374mb | 7.0bn | 5,500 | 124|
+| [C1-640-34](https://github.com/dje-dev/CeresNets/releases/tag/C1-640-34) | Dec 24 | 640x34 | 250mm | 504mb | 10.0bn | 3,900 | 160|
 
 [^1]:Size of transformer embedding dimension by number of encoder layers
 [^2]:Number of training positions on which the network was trained
