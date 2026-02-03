@@ -24,6 +24,7 @@ See the Ceres installation instructions for more details.
 | [C1-640-25](https://github.com/dje-dev/CeresNets/releases/tag/C1-640-25) | Nov 24 | 640x25 | 185mm | 374mb | 7.0bn | 5,500 | 124|
 | [C1-640-34](https://github.com/dje-dev/CeresNets/releases/tag/C1-640-34) | Dec 24 | 640x34 | 250mm | 504mb | 10.0bn | 3,900 | 160|
 | [C1-640-34-i8](https://github.com/dje-dev/CeresNets/releases/tag/C1-640-34-i8) | Dec 24 | 640x34 | 250mm | 504mb | 10.0bn | 3,900 | 160|
+| [C1-768-26-i8](https://github.com/dje-dev/CeresNets/releases/tag/C1-768-26-i8) | Apr 25 | 768x26 | 238mm | 458mb | 10.0bn | 3,800 | 150|
 
 [^1]:Size of transformer embedding dimension by number of encoder layers
 [^2]:Number of training positions on which the network was trained
